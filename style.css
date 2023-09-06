@@ -7,6 +7,7 @@
   text-decoration: none;
   outline: none;
   font-family: "Inter", sans-serif;
+  background: 100vh;
 }
 
 body {
@@ -464,6 +465,9 @@ border-color: #4f9cf9;
 
 /*menu mobile*/
 @media (max-width: 830px) {
+  body{
+    background: 100vh;
+  }
   .ul {
     position: fixed;
     top: 0;
@@ -548,6 +552,10 @@ border-color: #4f9cf9;
  }
  .contato-info .right-side{
   margin-bottom: 30px;
+ }
+
+ .clientes .container div{
+  flex-wrap: wrap;
  }
 }
 @media(max-width:500px){
